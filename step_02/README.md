@@ -12,8 +12,8 @@
 + `npm init` : 패키지를 생성(초기화 과정)
 + `npm install express --save` : 디렉토리에 express를 설치한 후 종속 항목 목록(package.json 종속항목)에 저장
 + `npm install express` : 디렉토리에 임시로 설치하고 종속 항목 목록에 추가하지 않음.
-또는
-**(추천)**
+<br/>또는
+<br/>**(추천)**
 1. `npm install -g express-generator` : 전역으로 사용할 수 있도록 설치
 2. 터미널에 `express -h` or `express --version`으로 설치가 되었는지 확인
 3. `express myapp` : `express [프로젝트명]` 형식으로 폴더 구조 생성
