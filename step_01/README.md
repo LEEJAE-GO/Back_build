@@ -21,6 +21,8 @@
 + https://nodejs.org/ko/ Node.js 다운로드 페이지에서 LTS 버전으로 설치.
   + LTS(Long Term Support)로 다운받는 이유는 장기간 걸친 보안 업데이트로 높은 안정성을 갖고 있기 떄문이다.
 
++ 설치 완료 이후 컴퓨터 혹은 노트북을 재부팅하는 것이 좋다.
+
 ### Node.js Run
 
 + 터미널에서 `test.js`가 위치한 경로로 이동.
