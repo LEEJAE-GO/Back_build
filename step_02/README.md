@@ -39,24 +39,24 @@
 ### express 구조
 ```bash
 ├─ bin
-│   └─ www : 웹서버 설정;port번호,
+│   └─ www : 웹서버 설정;port번호, http모듈과 express모듈을 연동
 │            클라이언트의 요청을 받고 응답을 처리해줄 객체를 서버로 생성, 서버 수신상태확인
 ├─ public : 정적인 파일들 위치
 │   └─ stylesheets
 │       └─ style.css
 │
 ├─ routes
-│   └─ index.js : 라우팅 처리; 라우팅: 최적의 경로로 데이터 통신
+│   └─ index.js : 라우팅 처리; 라우팅: 최적의 경로로 데이터 통신, 클라이언트 요청에 따른 응답
 │   └─ user.js
 │
-├─ views : 템플릿 엔진 관련 view 파일
+├─ views : 템플릿 엔진 관련 view 파일; jade란 문법에 따라 html이나 JavaScript로 사용 가능
 │   └─ error.jade
 │   └─ index.jade
 │   └─ layout.jade
 │
 ├─ app.js : express 객체를 생성하고 메서드를 통해 환경설정
 │           모듈 사용관련 설정(http요청, POST요청 데이터 접근)
-│
+│           서버가 view파일을 읽도록 위치를 정의하고 사용엔진이 템플릿 엔진이라고 정의
 └─ package-lock.json
 │
 └─ package.json : 프로젝트 정보를 정의한 객체 형태의 파일
